@@ -18,7 +18,7 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: ijieun0123/cicd
+          project: nbc.docker0123/cicd
           stage: main
           yaml: |
             name: # 프로젝트 이름 ex) `cicd`
